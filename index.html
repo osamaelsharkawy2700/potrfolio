@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Osama El Sharkawy is a Front-End Developer focused on Angular and modern web experiences."
+    />
+    <meta name="theme-color" content="#f8fafc" />
+    <title>Osama El Sharkawy — Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Osama El Sharkawy, home">
+          <span class="brand-mark">O<span>.</span></span>
+          <span>osama<span class="brand-muted">.dev</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"></path></svg>
+            <span class="theme-label">Light</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section container" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Hi, I'm <span class="accent-text">Osama</span><br />El Sharkawy<span class="period">.</span></h1>
+          <p class="hero-role">Front-End Developer <span class="role-divider">/</span> Angular</p>
+          <p class="hero-description">
+            I build thoughtful, responsive web experiences with Angular and modern front-end technologies.
+            Based in Cairo, Egypt — originally from Luxor.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#contact">Let's talk <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><span class="meta-icon">⌖</span> Cairo, Egypt</span>
+            <span class="meta-separator"></span>
+            <span>Computer Science Graduate</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative code illustration">
+          <div class="art-glow"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-card">
+            <div class="code-card-top"><span></span><span></span><span></span><small>hello.component.ts</small></div>
+            <div class="code-lines" aria-hidden="true">
+              <p><i>01</i><span class="code-purple">import</span> { Component } <span class="code-purple">from</span></p>
+              <p><i>02</i><span class="code-string">'@angular/core'</span>;</p>
+              <p><i>03</i></p>
+              <p><i>04</i><span class="code-yellow">@Component</span>({</p>
+              <p><i>05</i>&nbsp;&nbsp;selector: <span class="code-string">'app-hello'</span>,</p>
+              <p><i>06</i>&nbsp;&nbsp;template: <span class="code-string">'&lt;hello-world /&gt;'</span></p>
+              <p><i>07</i>})</p>
+              <p><i>08</i><span class="code-purple">export class</span> <span class="code-blue">HelloComponent</span> {</p>
+              <p><i>09</i>&nbsp;&nbsp;name = <span class="code-string">'Osama'</span>;</p>
+              <p><i>10</i>}</p>
+            </div>
+            <div class="code-card-footer"><span class="status-dot"></span> Building something great <span class="cursor">▍</span></div>
+          </div>
+          <div class="floating-chip chip-angular"><span class="angular-mark">A</span> Angular</div>
+          <div class="floating-chip chip-ts"><span>TS</span> TypeScript</div>
+          <div class="art-spark spark-one">✳</div>
+          <div class="art-spark spark-two">+</div>
+        </div>
+        <a class="scroll-hint" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+            <h2>Turning ideas into<br /><span class="accent-text">useful experiences.</span></h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy">
+              <p class="lead">
+                I'm Osama — a front-end developer who cares about the details behind a great user experience.
+              </p>
+              <p>
+                A Computer Science graduate from Luxor, I enjoy bringing ideas to life with clean interfaces,
+                purposeful interactions, and responsive layouts. My current focus is building with Angular,
+                while continuing to grow across the front-end ecosystem.
+              </p>
+              <p>
+                I believe good web development is a balance of curiosity, clear thinking, and a little
+                attention to every pixel.
+              </p>
+              <a class="text-link" href="#contact">Get to know me <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="about-facts">
+              <div class="about-profile">
+                <img src="Usama%20Portfolio/images/my_pic22.png" alt="Osama El Sharkawy" />
+                <div><strong>Osama El Sharkawy</strong><span>Front-End Developer</span></div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-number">01</span>
+                <div><h3>Front-end focused</h3><p>Building accessible, responsive interfaces with Angular.</p></div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-number">02</span>
+                <div><h3>Always learning</h3><p>Exploring better ways to build for the web.</p></div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-number">03</span>
+                <div><h3>Rooted in Egypt</h3><p>Luxor graduate, now creating from Cairo.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">02 / WHAT I CAN DO</p>
+            <h2>Services<span class="accent-text">.</span></h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <img src="Usama%20Portfolio/images/serv1.png" alt="" />
+              <h3>Web development</h3>
+              <p>Modern websites built with clean code and a focus on your goals.</p>
+            </article>
+            <article class="service-card">
+              <img src="Usama%20Portfolio/images/serv2.png" alt="" />
+              <h3>Responsive design</h3>
+              <p>Interfaces that feel natural on phones, tablets, and desktop screens.</p>
+            </article>
+            <article class="service-card">
+              <img src="Usama%20Portfolio/images/serv3.jpg" alt="" />
+              <h3>Design improvements</h3>
+              <p>Refresh an existing website with clearer content and a more polished look.</p>
+            </article>
+            <article class="service-card">
+              <img src="Usama%20Portfolio/images/serv6.png" alt="" />
+              <h3>Ongoing support</h3>
+              <p>Updates and improvements to keep your website useful as your needs grow.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <span class="accent-text">built.</span></h2></div>
+            <a class="text-link" href="https://github.com/osamaelsharkawy2700" target="_blank" rel="noreferrer">More on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-One/" target="_blank" rel="noreferrer" aria-label="Open Simple Portfolio One">
+                <img src="Usama%20Portfolio/images/portfolio1.png" alt="" loading="lazy" />
+                <span class="preview-index">01</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Simple Portfolio One</h3><span class="project-type">PORTFOLIO</span></div><p>A clean, single-page personal portfolio layout.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-One/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-Two/" target="_blank" rel="noreferrer" aria-label="Open Simple Portfolio Two">
+                <img src="Usama%20Portfolio/images/portfolio2.png" alt="" loading="lazy" />
+                <span class="preview-index">02</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Simple Portfolio Two</h3><span class="project-type">PORTFOLIO</span></div><p>A bright portfolio design with a bold introduction.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-Two/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-Three/" target="_blank" rel="noreferrer" aria-label="Open Simple Portfolio Three">
+                <img src="Usama%20Portfolio/images/portfolio3.png" alt="" loading="lazy" />
+                <span class="preview-index">03</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Simple Portfolio Three</h3><span class="project-type">PORTFOLIO</span></div><p>A vibrant portfolio concept with a strong visual identity.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Simple-Portfolio-Three/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Template-One/" target="_blank" rel="noreferrer" aria-label="Open Template One">
+                <img src="Usama%20Portfolio/images/template1.png" alt="" loading="lazy" />
+                <span class="preview-index">04</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Template One</h3><span class="project-type">WEB TEMPLATE</span></div><p>A minimal landing page with a scenic hero section.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Template-One/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Template-Two/" target="_blank" rel="noreferrer" aria-label="Open Template Two">
+                <img src="Usama%20Portfolio/images/template2.png" alt="" loading="lazy" />
+                <span class="preview-index">05</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Template Two</h3><span class="project-type">WEB TEMPLATE</span></div><p>A modern template featuring a full-screen visual layout.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Template-Two/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Template-Three/" target="_blank" rel="noreferrer" aria-label="Open Template Three">
+                <img src="Usama%20Portfolio/images/template3.png" alt="" loading="lazy" />
+                <span class="preview-index">06</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Template Three</h3><span class="project-type">WEB TEMPLATE</span></div><p>A friendly, responsive template for a creative agency.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Template-Three/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Resturant/" target="_blank" rel="noreferrer" aria-label="Open Food Lover Restaurant">
+                <img src="Usama%20Portfolio/images/ResturantProj.png" alt="" loading="lazy" />
+                <span class="preview-index">07</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Food Lover Restaurant</h3><span class="project-type">RESTAURANT</span></div><p>A restaurant website for browsing dishes and booking a table.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Resturant/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Cafe/" target="_blank" rel="noreferrer" aria-label="Open Cafe Website">
+                <img src="Usama%20Portfolio/images/CafeProj.png" alt="" loading="lazy" />
+                <span class="preview-index">08</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Café Website</h3><span class="project-type">LANDING PAGE</span></div><p>A warm café landing page with a welcoming menu and coffee theme.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Cafe/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/Hospital/" target="_blank" rel="noreferrer" aria-label="Open Hospital Website">
+                <img src="Usama%20Portfolio/images/hospital.png" alt="" loading="lazy" />
+                <span class="preview-index">09</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Hospital Website</h3><span class="project-type">HEALTHCARE</span></div><p>A healthcare website that makes medical information easy to find.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/Hospital/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+            <article class="project-card">
+              <a class="project-preview project-image" href="https://osamaelsharkawy2700.github.io/My-Portfolio/" target="_blank" rel="noreferrer" aria-label="Open Personal Portfolio">
+                <img src="Usama%20Portfolio/images/PotrfolioProj.png" alt="" loading="lazy" />
+                <span class="preview-index">10</span><span class="preview-arrow" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-info"><div class="project-title-line"><h3>Personal Portfolio</h3><span class="project-type">PORTFOLIO</span></div><p>A personal website introducing my work and experience.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://osamaelsharkawy2700.github.io/My-Portfolio/" target="_blank" rel="noreferrer">Open project <span>↗</span></a></div></div>
+            </article>
+          </div>
+          <div class="project-note"><span class="note-mark">↗</span><p>Want to see more? Explore my <a href="https://github.com/osamaelsharkawy2700" target="_blank" rel="noreferrer">GitHub profile</a> for more projects and experiments.</p></div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">04 / WHAT I WORK WITH</p><h2>My toolkit<span class="accent-text">.</span></h2></div>
+          <div class="skills-grid">
+            <article class="skill-group"><div class="skill-icon">&lt;/&gt;</div><p class="skill-label">01 / FRONT-END</p><h3>Interfaces & UI</h3><div class="skill-list"><span>Angular</span><span>TypeScript</span><span>JavaScript (ES6+)</span><span>HTML5</span><span>CSS3</span><span>Responsive Design</span></div></article>
+            <article class="skill-group"><div class="skill-icon">⌘</div><p class="skill-label">02 / BACK-END & DATA</p><h3>Connecting the dots</h3><div class="skill-list"><span>REST APIs</span><span>C#</span><span>.NET</span><span>SQL Server</span></div></article>
+            <article class="skill-group"><div class="skill-icon">✳</div><p class="skill-label">03 / WORKFLOW</p><h3>Tools & teamwork</h3><div class="skill-list"><span>Git</span><span>GitHub</span><span>SSMS</span><span>Browser DevTools</span><span>Figma</span></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="contact-panel">
+            <div class="contact-copy">
+              <p class="eyebrow">05 / YOUR NEXT PROJECT</p>
+              <h2>Have an idea?<br /><span class="accent-text">Let's make it real.</span></h2>
+              <p>I'm always open to a good conversation, exciting projects, and new opportunities.</p>
+              <div class="contact-links">
+                <a href="https://github.com/osamaelsharkawy2700" target="_blank" rel="noreferrer"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.32-3.75-1.32-.5-1.3-1.24-1.64-1.24-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.62 1.23 3.26.94.1-.73.39-1.23.71-1.51-2.47-.28-5.06-1.24-5.06-5.5 0-1.21.43-2.2 1.16-2.97-.12-.28-.5-1.41.11-2.94 0 0 .95-.3 3.05 1.13a10.6 10.6 0 0 1 5.55 0c2.11-1.43 3.05-1.13 3.05-1.13.61 1.53.23 2.66.11 2.94.72.77 1.16 1.76 1.16 2.97 0 4.27-2.6 5.22-5.08 5.49.4.35.76 1.02.76 2.06v3.11c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></span> GitHub <span class="external-arrow">↗</span></a>
+                <a href="https://www.linkedin.com/in/osama-el-sharkawy-1281312a8" target="_blank" rel="noreferrer"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6ZM3.7 8.7h3v11.6h-3V8.7Zm5 0h2.9v1.6h.04a3.2 3.2 0 0 1 2.9-1.8c3.1 0 3.7 2 3.7 4.6v7.2h-3v-6.4c0-1.5-.03-3.3-2-3.3s-2.3 1.6-2.3 3.2v6.5h-3V8.7Z"/></svg></span> LinkedIn <span class="external-arrow">↗</span></a>
+                <a href="https://www.facebook.com/share/17UPkoAcgT/" target="_blank" rel="noreferrer"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5V10H7v3h2.8v8h3.7Z"/></svg></span> Facebook <span class="external-arrow">↗</span></a>
+                <a href="https://www.instagram.com/abosaleh1070" target="_blank" rel="noreferrer"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm4.5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.3-3.4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4Z"/></svg></span> Instagram <span class="external-arrow">↗</span></a>
+                <!-- Replace the email below with your preferred contact address. -->
+                <a href="mailto:YOUR_EMAIL@example.com"><span class="social-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18A1.5 1.5 0 0 1 22.5 7v10a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 17V7A1.5 1.5 0 0 1 3 5.5Zm0 2v.2l9 5.8 9-5.8v-.2H3Zm18 9V10l-8.2 5.3a1.5 1.5 0 0 1-1.6 0L3 10v6.5h18Z"/></svg></span> Email me <span class="external-arrow">↗</span></a>
+                <a class="resume-link" href="mailto:YOUR_EMAIL@example.com?subject=Resume%20request"><span class="social-icon">↓</span> Resume available on request <span class="external-arrow">↗</span></a>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-heading"><span>DROP A MESSAGE</span><span class="form-status"><i></i> I usually reply soon</span></div>
+              <label for="contact-name">Your name</label>
+              <input id="contact-name" name="name" type="text" placeholder="How should I call you?" required />
+              <label for="contact-email">Email address</label>
+              <input id="contact-email" name="email" type="email" placeholder="you@example.com" required />
+              <label for="contact-subject">Subject</label>
+              <input id="contact-subject" name="subject" type="text" placeholder="What is this about?" required />
+              <label for="contact-message">Your message</label>
+              <textarea id="contact-message" name="message" rows="3" placeholder="Tell me a little about it..." required></textarea>
+              <button class="button button-primary submit-button" type="submit">Send message <span aria-hidden="true">↗</span></button>
+              <p class="form-note" aria-live="polite">This form opens your email app to send the message.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">O<span>.</span></span><span>osama<span class="brand-muted">.dev</span></span></a><p>Designed & built with care <span class="accent-text">© <span id="year"></span></span></p><a class="back-top" href="#home">Back to top ↑</a></div>
+    </footer>
+  </body>
+</html>
